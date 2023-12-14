@@ -1,5 +1,5 @@
 ## Demo_Carsim_MPC_Tracking
-**One Carsim-Simulink Demo of self-driving car trajectory tracking based on MPC**，展示了如何联合CarSim和Simulink来实现无人车MPC跟踪圆形轨迹。
+基于模型预测控制（MPC）的自动驾驶汽车轨迹跟踪的Carsim-Simulink演示，展示了如何联合CarSim和Simulink来实现无人车MPC跟踪圆形轨迹效果。
 
 ### 配置
 软件版本：MATLAB R2020a, CarSim 2020.0[（安装并关联Simulink）](https://blog.csdn.net/Cynthia_2019/article/details/121953106), Windows 11  
@@ -15,11 +15,14 @@
 
 ### 结果
 Simulink中无人车的轨迹： 
+<br>
  <div align="center">
   <img src="issue/Result_Simulink.png" alt="result" width="50%" height="50%" />
 </div>
+<br>
+<br>
 CarSim中无人车的轨迹：  
-
+<br>
 
 https://github.com/bithuanglq/Demo_Carsim_MPC_Tracking/assets/46642752/b69457a2-bf0a-4fab-8b71-9c14a14dddc8
 
