@@ -28,7 +28,7 @@ https://github.com/bithuanglq/Demo_Carsim_MPC_Tracking/assets/46642752/b69457a2-
 
 
 
-### 改进
+### Where to modify
 Modify the reference trajectory in MY_MPCController3.m for reference.
 
 
