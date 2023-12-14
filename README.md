@@ -9,21 +9,21 @@
 
 CarSim新建Procedure为newSplit Mu， 新建Run Control with Simulink的Models为MPCtest1，最终Home页面如下：  
 <div align="center">
-  <img src="issue/CarSim_Home.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Carsim_Home.png" alt="result" width="40%" height="40%" />
 </div>
 Procedure、Models配置如下：  
 <div align="center">
-  <img src="issue/CarSim_Procedure.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Carsim_Procedure.png" alt="result" width="40%" height="40%" />
 </div>
 <div align="center">
-  <img src="issue/CarSim_Models.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Carsim_Models.png" alt="result" width="40%" height="40%" />
 </div>
 在Models中，新建输入MPCtest1 input，输出MPCtest1 output，配置如下： 
 <div align="center">
-  <img src="issue/CarSim_Models_Import.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Carsim_Models_Import.png" alt="result" width="40%" height="40%" />
 </div>
  <div align="center">
-  <img src="issue/CarSim_Models_Export.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Carsim_Models_Export.png" alt="result" width="40%" height="40%" />
 </div>
 
 > Simulink 配置
