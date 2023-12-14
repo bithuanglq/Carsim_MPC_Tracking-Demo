@@ -1,5 +1,5 @@
 ## Demo_Carsim_MPC_Tracking
-基于模型预测控制（MPC）的自动驾驶汽车轨迹跟踪的Carsim-Simulink演示，展示了如何联合CarSim和Simulink来实现无人车MPC跟踪圆形轨迹效果。
+A Carsim-Simulink demonstration of Model Predictive Control (MPC) for autonomous vehicle trajectory tracking showcases the integration of CarSim and Simulink to achieve MPC-based circular trajectory tracking for self-driving cars.
 
 ### Prerequisites
 Version: MATLAB R2020a, CarSim 2020.0 [(install and link Simulink)](https://blog.csdn.net/Cynthia_2019/article/details/121953106), Windows 11  
