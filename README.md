@@ -3,7 +3,7 @@
 
 ### 配置
 软件版本：MATLAB R2020a， CarSim 2020.0 [(安装并关联Simulink)](https://blog.csdn.net/Cynthia_2019/article/details/121953106)， Windows 11  
-路径配置：根目录D:\CarSim2020\Carsim_Files，子文件（MPCtest1.mdl, MY_MPCController3.m, my_quadprog.m），根目录可以自定义  
+路径配置：根目录 _D:\CarSim2020\Carsim_Files_，子文件（_MPCtest1.mdl_, _MY_MPCController3.m_, _my_quadprog.m_），根目录可以自定义  
 详细配置流程请参照 [这里](issue/Readme.md)
 
 
