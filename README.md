@@ -8,7 +8,7 @@
 
 
 
-## Demo_Carsim_MPC_Tracking
+## 简介
 基于模型预测控制（MPC）的自动驾驶汽车轨迹跟踪的Carsim-Simulink演示，展示了如何联合CarSim和Simulink来实现无人车MPC跟踪圆形轨迹效果。
 
 ### 配置
