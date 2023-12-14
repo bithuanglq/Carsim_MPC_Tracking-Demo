@@ -1,27 +1,27 @@
 ## Demo_Carsim_MPC_Tracking
 基于模型预测控制（MPC）的自动驾驶汽车轨迹跟踪的Carsim-Simulink演示，展示了如何联合CarSim和Simulink来实现无人车MPC跟踪圆形轨迹效果。
 
-### 配置
-软件版本：MATLAB R2020a， CarSim 2020.0 [(安装并关联Simulink)](https://blog.csdn.net/Cynthia_2019/article/details/121953106)， Windows 11  
-路径配置：根目录 _D:\CarSim2020\Carsim_Files_，子文件（_MPCtest1.mdl_, _MY_MPCController3.m_, _my_quadprog.m_），根目录可以自定义  
-详细配置流程请参照 [这里](issue/Readme.md)
+### Prerequisites
+Version: MATLAB R2020a, CarSim 2020.0 [(install and link Simulink)](https://blog.csdn.net/Cynthia_2019/article/details/121953106), Windows 11  
+Directory: root directory is _D:\CarSim2020\Carsim_Files_, include（_MPCtest1.mdl_, _MY_MPCController3.m_, _my_quadprog.m_），the root directory can be customized 
+Please refer to the detailed [configuration process](issue/Readme.md).
 
 
-### 运行
-1. 点击CarSim--Home中的Send to Simulink，自动打开Simulink后点击Run，等待运行完成，查看Simulink仿真结果
-2. 如果需要改动CarSim中的参数如车辆参数、仿真工况，则需要先Run Now再Send to Simulink；如果改动Simulink的参数，只需要在Simulink中Run
-3. 最后在CarSim--Home--Analyze Results (Post Processing)中点击Video+Plot，查看CarSim仿真结果
+### Run
+1. Click 'Send to Simulink' in CarSim—Home, then automatically open Simulink. Click 'Run' in Simulink, wait for the completion of the simulation, and check the simulation results in Simulink
+2. If you need to modify parameters in CarSim, such as vehicle parameters or simulation conditions, you should first 'Run Now' and then 'Send to Simulink.' If you are modifying parameters in Simulink, you only need to 'Run' within Simulink
+3. Finally, in CarSim—Home—Analyze Results (Post Processing), click on 'Video+Plot' to view the CarSim simulation results.
 
 
-### 结果
-Simulink中无人车的轨迹： 
+### Results
+Trajectory of the autonomous vehicle in Simulink:
 <br>
  <div align="center">
   <img src="issue/Result_Simulink.png" alt="result" width="50%" height="50%" />
 </div>
 <br>
 <br>
-CarSim中无人车的轨迹：  
+The trajectory of the autonomous vehicle in CarSim:
 <br>
 
 https://github.com/bithuanglq/Demo_Carsim_MPC_Tracking/assets/46642752/b69457a2-bf0a-4fab-8b71-9c14a14dddc8
@@ -29,8 +29,8 @@ https://github.com/bithuanglq/Demo_Carsim_MPC_Tracking/assets/46642752/b69457a2-
 
 
 ### 改进
-参考轨迹在MY_MPCController3.m中修改
+Modify the reference trajectory in MY_MPCController3.m for reference.
 
 
 ### Acknowlegement
-参考自龚建伟著《无人驾驶车辆模型预测控制》
+Thanks to the book 'Model Predictive Control for Autonomous Vehicles' by Jianwei Gong for guidance.
