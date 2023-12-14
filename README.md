@@ -7,20 +7,31 @@
 
 > CarSim 配置
 
-CarSim新建Procedure为newSplit Mu， 新建Run Control with Simulink的Models为MPCtest1，最终Home页面以及Procedure、Models配置如下：  
-CarSim_Home.png  
-CarSim_Procedure.png  
-CarSim_Models.png  
-在Models中，新建输入MPCtest1 input，输出MPCtest1 output，配置如下：  
-CarSim_Models_Import.png  
-CarSim_Models_Export.png  
-
+CarSim新建Procedure为newSplit Mu， 新建Run Control with Simulink的Models为MPCtest1，最终Home页面如下：  
+<div align="center">
+  <img src="issue/CarSim_Home.png" alt="result" width="40%" height="40%" />
+</div>
+Procedure、Models配置如下：  
+<div align="center">
+  <img src="issue/CarSim_Procedure.png" alt="result" width="40%" height="40%" />
+</div>
+<div align="center">
+  <img src="issue/CarSim_Models.png" alt="result" width="40%" height="40%" />
+</div>
+在Models中，新建输入MPCtest1 input，输出MPCtest1 output，配置如下： 
+<div align="center">
+  <img src="issue/CarSim_Models_Import.png" alt="result" width="40%" height="40%" />
+</div>
+ <div align="center">
+  <img src="issue/CarSim_Models_Export.png" alt="result" width="40%" height="40%" />
+</div>
 
 > Simulink 配置
 
 Simulink 文件打开如下：  
-Simulink.png  
-
+ <div align="center">
+  <img src="issue/Simulink.png" alt="result" width="40%" height="40%" />
+</div>
 
 ### 运行
 1. 点击CarSim--Home中的Send to Simulink，自动打开Simulink后点击Run，等待运行完成，查看Simulink仿真结果
@@ -29,11 +40,14 @@ Simulink.png
 
 
 ### 结果
-Simulink中无人车的轨迹：  
-Result_Simulink.png  
+Simulink中无人车的轨迹： 
+ <div align="center">
+  <img src="issue/Result_Simulink.png" alt="result" width="40%" height="40%" />
+</div>
 CarSim中无人车的轨迹：  
-Result_CarSim.mp4  
-
+<video width="40%" height="40%" controls>
+  <source src="issue/Result_CarSim.mp4" type="video/mp4">
+</video>
 
 ### 改进
 参考轨迹在MY_MPCController3.m中修改
