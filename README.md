@@ -4,34 +4,8 @@
 ### 配置
 软件版本：MATLAB R2020a, CarSim 2020.0[（安装并关联Simulink）](https://blog.csdn.net/Cynthia_2019/article/details/121953106), Windows 11  
 路径配置：根目录D:\CarSim2020\Carsim_Files，子文件（MPCtest1.mdl, MY_MPCController3.m, my_quadprog.m），根目录可以自定义  
+详细配置流程请参照 _issue/Readme.md_
 
-> CarSim 配置
-
-CarSim新建Procedure为newSplit Mu， 新建Run Control with Simulink的Models为MPCtest1，最终Home页面如下：  
-<div align="center">
-  <img src="issue/Carsim_Home.png" alt="result" width="40%" height="40%" />
-</div>
-Procedure、Models配置如下：  
-<div align="center">
-  <img src="issue/Carsim_Procedures.png" alt="result" width="40%" height="40%" />
-</div>
-<div align="center">
-  <img src="issue/Carsim_Models.png" alt="result" width="40%" height="40%" />
-</div>
-在Models中，新建输入MPCtest1 input，输出MPCtest1 output，配置如下： 
-<div align="center">
-  <img src="issue/Carsim_Models_Import.png" alt="result" width="40%" height="40%" />
-</div>
- <div align="center">
-  <img src="issue/Carsim_Models_Export.png" alt="result" width="40%" height="40%" />
-</div>
-
-> Simulink 配置
-
-Simulink 文件打开如下：  
- <div align="center">
-  <img src="issue/Simulink.png" alt="result" width="40%" height="40%" />
-</div>
 
 ### 运行
 1. 点击CarSim--Home中的Send to Simulink，自动打开Simulink后点击Run，等待运行完成，查看Simulink仿真结果
@@ -42,7 +16,7 @@ Simulink 文件打开如下：
 ### 结果
 Simulink中无人车的轨迹： 
  <div align="center">
-  <img src="issue/Result_Simulink.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Result_Simulink.png" alt="result" width="50%" height="50%" />
 </div>
 CarSim中无人车的轨迹：  
 
