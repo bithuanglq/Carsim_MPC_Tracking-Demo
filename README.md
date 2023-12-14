@@ -1,7 +1,7 @@
 ## Language
 
 - [En](README_en.md)
-- [中](README.md)
+- [中](README_cn.md)
 
 ---
 
