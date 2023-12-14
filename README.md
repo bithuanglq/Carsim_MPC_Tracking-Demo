@@ -35,3 +35,10 @@ CarSim中无人车的轨迹：
 Result_CarSim.mp4  
 
 
+### 改进
+参考轨迹在MY_MPCController3.m中修改
+
+
+### Acknowlegement
+参考自龚建伟著《无人驾驶车辆模型预测控制》
+
