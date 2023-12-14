@@ -13,7 +13,7 @@ CarSim新建Procedure为newSplit Mu， 新建Run Control with Simulink的Models�
 </div>
 Procedure、Models配置如下：  
 <div align="center">
-  <img src="issue/Carsim_Procedure.png" alt="result" width="40%" height="40%" />
+  <img src="issue/Carsim_Procedures.png" alt="result" width="40%" height="40%" />
 </div>
 <div align="center">
   <img src="issue/Carsim_Models.png" alt="result" width="40%" height="40%" />
@@ -45,9 +45,11 @@ Simulink中无人车的轨迹：
   <img src="issue/Result_Simulink.png" alt="result" width="40%" height="40%" />
 </div>
 CarSim中无人车的轨迹：  
-<video width="40%" height="40%" controls>
-  <source src="issue/Result_CarSim.mp4" type="video/mp4">
-</video>
+
+
+https://github.com/bithuanglq/Demo_Carsim_MPC_Tracking/assets/46642752/b69457a2-bf0a-4fab-8b71-9c14a14dddc8
+
+
 
 ### 改进
 参考轨迹在MY_MPCController3.m中修改
