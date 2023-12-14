@@ -2,7 +2,7 @@
 基于模型预测控制（MPC）的自动驾驶汽车轨迹跟踪的Carsim-Simulink演示，展示了如何联合CarSim和Simulink来实现无人车MPC跟踪圆形轨迹效果。
 
 ### 配置
-软件版本：MATLAB R2020a, CarSim 2020.0[（安装并关联Simulink）](https://blog.csdn.net/Cynthia_2019/article/details/121953106), Windows 11  
+软件版本：MATLAB R2020a， CarSim 2020.0 [(安装并关联Simulink)](https://blog.csdn.net/Cynthia_2019/article/details/121953106)， Windows 11  
 路径配置：根目录D:\CarSim2020\Carsim_Files，子文件（MPCtest1.mdl, MY_MPCController3.m, my_quadprog.m），根目录可以自定义  
 详细配置流程请参照 _issue/Readme.md_
 
